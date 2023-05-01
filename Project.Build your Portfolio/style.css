@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0 , 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+ .navbar ul{
+display: flex;
+margin: 20px 0px;
+list-style: none;
+}
+.navbar ul li{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold; 
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px;
+}
+section{
+  height: 840px;
+  flex-direction: column;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+}
+.box{
+  margin-top: 10%;  
+}
+.box img{
+  height: 250px;
+  
+}
+.profile{
+  border-radius: 50%;
+  height: 300px;
+}
+.box h1{
+  margin-top: 2%;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue; 
+  text-align: center; 
+}
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+ 
+}
+#about h1{
+  color: blue;
+  font-weight: bolder;
+  
+}
+.pic{
+  display: flex;
+}
+.pic img{
+  width: 575px;
+  height: 400px;
+}
+#bpc{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+#bpc h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: blue;
+}
+#bpc p{
+  color: blue;
+  text-indent: 50px;
+  text-align: justify;
+}
+#achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+.gallery img{
+ float: left;
+ padding: 5px;
+ align-items: center;
+  
+}
+footer{
+  line-height: 40px;
+
+  display: flex;
+
+  justify-content: center;
+
+  font-size: 1rem;
+}
+.box p, ul{
+  margin-top: 2%;
+  font-size: 1.5rem;
+  text-align: center;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+#intro{
+  background-image: url(computer-keyboards.jpg);
+  background-size: cover; 
+}
+#about{
+  background-color: lightgoldenrodyellow;
+}
+#achievement{
+  background-color: lightgoldenrodyellow;
+}
+#contact{
+  background-color: lightgoldenrodyellow;
+}
+.box p{
+  text-indent: 50px;
+  text-align: justify;
+}

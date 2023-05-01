@@ -1,0 +1,23 @@
+/* phone.css*/
+
+/* Home*/
+#intro{
+    height: 820px;
+}
+.box{
+    font-size: 1.7rem;
+}
+/* About */
+#pic img{
+    width: 300px;
+    height: 175px;
+}
+#about h2{
+    font-size: 1.5rem;
+}
+/* Achievement */
+.gallery img{
+    width: 275px;
+    height: 150px;
+    margin: 10px
+}

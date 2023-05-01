@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+p{
+   font-family: 'Nunito';
+   font-style: normal;
+   font-weight: lighter;
+  
+}  
+
+
+
+
+/* 
+font-variant: small-caps; 
+font-size: 75px
+white-space: normal;
+line-height: 32px;
+word-spacing: 25px;
+letter-spacing: 5px;
+text-indent: 48px;
+p{
+    text-shadow: 1px 1px 5px #000000;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalized{
+    text-transform: capitalize;
+}*/

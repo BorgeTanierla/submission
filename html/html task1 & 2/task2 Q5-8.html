@@ -1,0 +1,327 @@
+<!--Question 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Things</title>
+</head>
+<body>
+    <h1><b>My Favorite Things</b></h1> 
+    <h2><b>Books i've read</b></h2> 
+<form>
+    <ul>
+        <li>
+	        <input type="checkbox" id="book1" name="book1" value="The Lord of the Rings">  
+	        <label for="book1">The Lord of the Rings</label><br>  
+        </li>
+        <li>
+	        <input type="checkbox" id="book2" name="book2" value="To Kill a Mockingbird">  
+	        <label for="book2">To Kill a Monkingbird</label><br>  
+        </li>
+        <li>
+	        <input type="checkbox" id="book3" name="book3" value="The Great Gatsby">  
+	        <label for="book3">The Great Gatsby</label>  
+        </li>
+    </ul>
+</form> 
+<form>
+    <h2><b>Movies Ratings</b></h2>
+    <ul>
+        <li>
+            <label for="movie1">The Shawshank Redemption</label>
+            <input type="range" id="movie1" value="The Shawshank Redemption" min="1" max="10">  
+        </li>
+        <li>
+            <label for="movie2">The Godfather</label>
+            <input type="range" id="movie2" value="The Godfather" min="1" max="10">  
+        </li>
+        <li>
+            <label for="movie3">Pulp Fiction</label>
+            <input type="range" id="movie3" value="Pulp Fiction" min="1" max="10">  
+        </li>
+    </ul>
+</form>
+<form>
+    <h2><b>Movies Ratings</b></h2>
+    <ol>
+        <li>
+	        <input type="radio" id="music1" name="book1" value="The Beatles">  
+	        <label for="music1">The Beatles</label><br>  
+        </li>
+        <li>
+	        <input type="radio" id="music2" name="book2" value="Bob Dylan">  
+	        <label for="music2">Bob Dylan</label><br>  
+        </li>
+        <li>
+	        <input type="radio" id="music3" name="book3" value="Johnny Cash">  
+	        <label for="music3">Johnny Cash</label>  
+        </li>
+    </ol>
+</form>
+</body> 
+</html>
+
+<!--Question 6 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grocery List</title>
+</head>
+<body>
+    <h1><b>Grocery Checklist</b></h1> 
+    <h2><b>Item:</b></h2> 
+<form>
+   
+	        <input type="checkbox" id="item1" name="item1" value="milk">  
+	        <label for="item1">Milk:
+                <select name="milk">
+                    <optgroup name="milk">
+                        <option value="milk">Brand A</option>
+                        <option value="milk">Brand B</option>
+                        <option value="milk">Brand C</option>
+                    </optgroup>
+                    </select> 
+            </label> <br>
+       
+	        <input type="checkbox" id="item2" name="item2" value="bread">  
+	        <label for="item2">Bread:
+                <select name="bread">
+                    <optgroup name="bread">
+                        <option value="bread">Brand A</option>
+                        <option value="bread">Brand B</option>
+                        <option value="bread">Brand C</option>
+                    </optgroup>
+                    </select> 
+            </label><br>  
+       
+	        <input type="checkbox" id="item3" name="item3" value="eggs">  
+	        <label for="item3">Eggs:
+                <select name="eggs">
+                    <optgroup name="eggs">
+                        <option value="eggs">Brand A</option>
+                        <option value="eggs">Brand B</option>
+                        <option value="eggs">Brand C</option>
+                    </optgroup>
+                    </select> 
+            </label>  <br>
+<form>        
+
+    <h2><b>Other Items:</b></h2> 
+
+<form>
+   
+        <input type="checkbox" id="Otheritem1" name="item1" value="butter">  
+        <label for="item1">Butter:
+            <select name="milk">
+                <optgroup name="milk">
+                    <option value="butter">Brand A</option>
+                    <option value="butter">Brand B</option>
+                    <option value="butter">Brand C</option>
+                </optgroup>
+                </select> 
+        </label> <br>
+   
+        <input type="checkbox" id="item2" name="item2" value="cheese">  
+        <label for="item2">Cheese:
+            <select name="bread">
+                <optgroup name="cheese">
+                    <option value="cheese">Brand A</option>
+                    <option value="cheese">Brand B</option>
+                    <option value="cheese">Brand C</option>
+                </optgroup>
+                </select> 
+        </label><br>  
+   
+        <input type="checkbox" id="item3" name="item3" value="fruits">  
+        <label for="item3">Fruits:
+            <select name="fruits">
+                <optgroup name="fruits">
+                    <option value="fruits">Brand A</option>
+                    <option value="fruits">Brand B</option>
+                    <option value="fruits">Brand C</option>
+                </optgroup>
+                </select> 
+        </label>  <br>
+        <input type="submit" value="Submit"/> 
+<form>        
+
+</body> 
+</html> 
+
+Question 7 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: Multiplication Table</title>
+    <style>
+      table {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+
+      th:first-child, td:first-child {
+        background-color: lightgray;
+      }
+
+      input[type="number"] {
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiplication Table</h1>
+    <p>Fill in the missing numbers in the multiplication table below:</p>
+   
+    <form>
+      <table>
+          <tr>
+          <th></th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
+        <tr>
+        <tr>
+          <th>1</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>2</td>
+          <td><input type="number" name="num21"></td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>3</td>
+          <td>6</td>
+          <td><input type="number" name="num32"></td>
+        </tr>
+      </table> <br>
+      <input type="submit" value="submit">
+     
+    </form>
+  </body>
+</html> 
+
+<!--Question 8 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Box</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      .chat-container {
+        width: 70%;
+        height: 70%;
+        max-width: 500px;
+        max-height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .message-container {
+        flex: 1;
+        overflow-y: scroll;
+        padding: 10px;
+      }
+      
+      .message-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        max-width: 70%;
+        overflow-wrap: break-word;
+      }
+      
+      .user-message {
+        background-color: #0084ff;
+        color: white;
+        float: right;
+      }
+      
+      .received-message {
+        background-color: #f1f0f0;
+        float: left;
+      }
+      
+      .input-container {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #f7f7f7;
+      }
+      
+      textarea {
+        flex: 1;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+      }
+      
+      input{
+        background-color: #0084ff;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h1>Chat Box</h1>
+      <div class="message-container">
+        <div class="message-card user-message">Hi there!</div>
+        <div class="clear"></div>
+        <div class="message-card received-message">Hello! How can I help you today?</div>
+        <div class="clear"></div>
+        <div class="message-card user-message">I have a question about your product.</div>
+        <div class="clear"></div>
+        <div class="message-card received-message">Sure, what's your question?</div>
+        <div class="clear"></div>
+        <div class="message-card user-message">Can you tell me more about the features?</div>
+        <div class="clear"></div>
+        <div class="message-card received-message">Certainly! Our product has many great features, including...</div>
+        <div class="clear"></div>
+        <div class="message-card user-message">Thanks for your help!</div>
+        <div class="clear"></div>
+        <div class="message-card received-message">You're welcome! Let me know if you have any other questions.</div>
+        <div class="clear"></div>  
+      </div>
+      
+        <form class="input-container">
+          <textarea placeholder="Type your message here..."></textarea>
+          <input type="submit" value="Send">
+        </form>
+    
+    </div>
+  </body>
+</html>

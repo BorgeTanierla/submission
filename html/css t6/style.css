@@ -1,0 +1,16 @@
+p{
+    color: brown;
+}
+
+body{
+    background:center center / cover url('et.png') no-repeat ;
+    
+}
+   
+    /*
+    background-image: url('et.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/

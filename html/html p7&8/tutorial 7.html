@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+
+        <style>
+            table,tr,th,td{
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;
+            }
+
+            thead{
+                background-color: yellow;
+            }
+
+            tfoot{
+                background-color: brown;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <table>
+            <caption>Ist Sem Grade</caption>
+            <thead>
+           <tr>
+                <th rowspan="2">Names</th>
+                <th colspan="2">Subjects</th>
+           </tr>
+           <tr>
+                <td>C++</td>
+                <td>Java</td>
+            </thead>
+           </tr>
+           <tr>
+            <tbody>
+                <td>Jaymark</td>
+                <td>94</td>
+                <td>92</td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><center>Demo Row</center></td>
+                </tr>
+            </tfoot>
+           </tr>
+           
+        </table>
+
+    </body>
+    
+</html>
